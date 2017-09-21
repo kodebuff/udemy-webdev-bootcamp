@@ -3,9 +3,9 @@
 ### 5 PRIMITIVE DATA TYPES 
 
 * **NUMBERS**   
-      4   
-      9.3   
-    -10  
+      `4`   
+      `9.3`   
+    `-10`  
 
 * **STRINGS**  
     "Hello World"  
