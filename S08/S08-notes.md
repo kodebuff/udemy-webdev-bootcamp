@@ -3,9 +3,9 @@
 ### 5 PRIMITIVE DATA TYPES 
 
 * **NUMBERS**   
-      `4`   
-      `9.3`   
-    `-10`  
+      4   
+      9.3   
+    -10  
 
 * **STRINGS**  
     "Hello World"  
@@ -17,11 +17,11 @@
 
 * **NULL** 
     null  
+    
 * **UNDEFINED**
-    undefined
+    undefined  
 
-### S08-L87 Useful Built-in Methods
-
+### S08-L87 Useful Built-in Methods  
 * `clear()` -> clears the console.
 * `alert("Hello there!")` -> pops up small window on the screen.
 * `console.log()` -> 
