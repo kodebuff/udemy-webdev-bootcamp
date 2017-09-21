@@ -33,10 +33,10 @@
 <html>
 <head>
   <title></title>
-  <link 
+  <script src="javascript-filename.js"></script>
 </head>
 <body>
-  
+  <h1>Including JS Files</h1>
 </body>
 </html>
 ```
