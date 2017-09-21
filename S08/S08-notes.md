@@ -22,6 +22,11 @@
     undefined  
 
 ### S08-L87 Useful Built-in Methods  
-* `clear()` -> clears the console.
-* `alert("Hello there!")` -> pops up small window on the screen.
-* `console.log()` -> 
+* `clear();` -> clears the javascript console.
+* `alert("Hello there!");` -> pops up small window on the screen.
+* `console.log("Hello from the console!";)` -> pirnts something in javascript console.
+* `prompt("What is your name?");` -> gets input from the user.
+  * `var userName = prompt(What is your name?);` -> best to store value of prompt to a variable.
+
+
+
