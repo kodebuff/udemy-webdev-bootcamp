@@ -3,8 +3,8 @@
 ### 5 PRIMITIVE DATA TYPES 
 
 * **NUMBERS**   
-    4   
-    9.3   
+      4   
+      9.3   
     -10  
 
 * **STRINGS**  
