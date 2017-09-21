@@ -19,3 +19,7 @@
     null  
 * **UNDEFINED**
     undefined
+
+### S08-L87 Useful Built-in Methods
+
+* `clear()` -> clears the console.
