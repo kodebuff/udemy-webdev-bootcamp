@@ -23,3 +23,5 @@
 ### S08-L87 Useful Built-in Methods
 
 * `clear()` -> clears the console.
+* `alert("Hello there!")` -> pops up small window on the screen.
+* `console.log()` -> 
