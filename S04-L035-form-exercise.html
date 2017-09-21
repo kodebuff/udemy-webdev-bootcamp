@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Exercise</title>
+</head>
+<body>
+  
+  <h1>Register</h1>
+  
+  <form>
+    <div>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" id="firstName" placeholder="John" required />  
+    
+      <label for="lastName">Last Name:</label>
+      <input type="text" name="lastName" id="lastName" placeholder="Smith" required />  
+    </div>
+    
+    <div>
+      <label for="male">Male:</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      
+      <label for="female">Female:</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      
+      <label for="other">Other:</label>
+      <input type="radio" name="gender" id="other" value="other" />
+    </div>
+    
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="your email" required />  
+    
+      <label for="password">Password:</label>
+      
+      <input type="password" name="password" id="password" placeholder="password" pattern=".{5,10}" required title="password must be 5 and 10 characters" />
+      
+      <!--MY SOLUTION
+      <input type="password" name="password" id="password" placeholder="password" pattern="[0-9a-zA-Z]{5,10}" required />  
+      -->
+    </div>
+    
+    <div>
+      <label for="birthday">Birthday:</label>
+      
+      <select name="month">
+        <option>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+      </select>
+      
+      <select name="day">
+        <option>Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      
+      <select name="year">
+        <option>Year</option>
+        <option>1981</option>
+        <option>1982</option>
+        <option>1983</option>
+      </select>
+    </div>
+    
+    <div>
+      I agree to the terms and conditions
+      
+      <input type="checkbox">
+    </div>
+    
+    <input type="submit" value="Submit"/>
+  
+  </form>
+  
+</body>
+</html>

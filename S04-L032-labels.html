@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Labels</title>
+</head>
+<body>
+  
+  <h1>Login</h1>
+  
+  <!-- action - where the form send data to -->
+  <!-- method - what http method (get/post) -->
+  
+  <form action="http://www.wikipedia.org">
+    
+    <!-- 
+    added label tag for accessibility tools e.g. if user is visually impaired or blind, 
+    screen reader software will look for label tags and use it to determine what each part
+    of the form corresponds to..
+    -->
+    
+    <label for="username">Username:</label>
+    <input id="username" type="text" name="username" placeholder="username" />
+    
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password" placeholder="password" />
+    
+    <input type="submit" value="Submit"/>
+    
+  </form>
+  
+</body>
+</html>
