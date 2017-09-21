@@ -3,13 +3,13 @@
 
 ### 5 PRIMITIVE DATA TYPES 
 
-NUMBERS 
-4 
-9.3 
--10
+* NUMBERS 
+    4 
+    9.3 
+  -10
 
-STRINGS 
-"Hello World"
+* STRINGS 
+  "Hello World"
 "43"
 
 BOOLEANS
