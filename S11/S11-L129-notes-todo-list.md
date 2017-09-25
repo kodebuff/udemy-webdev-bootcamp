@@ -30,5 +30,5 @@ function logNums(el, i, arr) {
 Notice how in the second example we don't invoke logNums when passing it into .forEach? We simply pass in the function name. We don't need to invoke the logNums function, .forEach does that for us. In fact, it invokes the function multiple times, once for every element inside of the array.
 I hope that helped clear some things up, please post a question in the Q&A if you're unsure of anything that I've shared above.
 
-cheers,
+cheers,  
 Ian
