@@ -1,1 +1,1 @@
-// alert(JS FILE CONNECTED!);
+// alert("JS FILE CONNECTED!");
