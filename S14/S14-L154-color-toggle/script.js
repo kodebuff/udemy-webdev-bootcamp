@@ -1,19 +1,28 @@
 // alert("JS FILE CONNECTED!");
 
-var button = document.querySelector("button");
-var body = document.querySelector("body");
-var isColorWhite = true;
 
-//SETUP CLICK LISTENER
-button.addEventListener("click", function() {
+// //THIS WORKS OK
+// var button = document.querySelector("button");
+// var body = document.querySelector("body");
+// var isGreen = false;
+
+// //SETUP CLICK LISTENER
+// button.addEventListener("click", function() {
   
-  //if body color is white, change it to green
-  if (isColorWhite) {
-    body.style.background = "green";
-  //if not, change it to white  
-  } else {
-    body.style.background = "white";
-  }
-  //toggle
-  isColorWhite = !isColorWhite;  
+//   //if body color is green, change it to white
+//   if (isGreen) {
+//     body.style.background = "white";
+//   //if not, change it to green  
+//   } else {
+//     body.style.background = "green";
+//   }
+//   //toggle
+//   isGreen = !isGreen;  
+// });
+
+//BUT THIS ONE IS WAY SHORTER
+var button = document.querySelector("button");
+
+button.addEventListener("click", function(){
+  document.body.classList.toggle("green");
 });
