@@ -17,7 +17,7 @@ var winScoreInput = document.querySelector("input");
 var gameOver = false;
 var scoreP1 = 0;
 var scoreP2 = 0;
-var winningScore = 0;
+var winningScore = 5;
 
 btnP1.addEventListener("click", function(){
   if (!gameOver) {   //if not game over yet, do
